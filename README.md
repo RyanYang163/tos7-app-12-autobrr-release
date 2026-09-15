@@ -20,7 +20,7 @@
 
 本版本故意违反以下条目(编号见 `16_Review_Standards.md`):
 
-**`H8, H14, I4`**
+**`H8`**
 
 具体落地方式见 [`VIOLATIONS.md`](./VIOLATIONS.md)。
 

@@ -2,7 +2,7 @@ version: "3.8"
 
 services:
   tos7-app-12-autobrr:
-    image: autobrr/autobrr:v1.52.0
+    image: alpine:3.20
     container_name: tos7-app-12-autobrr
     restart: unless-stopped
     ports:
