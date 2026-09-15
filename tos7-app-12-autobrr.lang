@@ -1,0 +1,97 @@
+[en-us]
+name = "Autobrr"
+auth = "TOS Review Test Corpus"
+descript = "A download automation tool for torrent trackers with powerful filtering rules."
+release_note = "1. Initial release."
+important = "Requires DockerEngine from the TOS App Center."
+
+[zh-cn]
+name = "Autobrr"
+auth = "TOS Review Test Corpus"
+descript = "面向 PT 站点的下载自动化工具,支持强大的过滤规则。"
+release_note = "1. 首次发布。"
+important = "需要先安装并启用 DockerEngine。"
+
+[zh-hk]
+name = "Autobrr"
+auth = "TOS Review Test Corpus"
+descript = "面向 PT 站點的下载自動化工具,支援強大的過濾規則。"
+release_note = "1. 首次发布。"
+important = "需要先安装并启用 DockerEngine。"
+
+[fr-fr]
+name = "Autobrr"
+auth = "TOS Review Test Corpus"
+descript = "A download automation tool for torrent trackers with powerful filtering rules."
+release_note = "1. Initial release."
+important = "Requires DockerEngine from the TOS App Center."
+
+[de-de]
+name = "Autobrr"
+auth = "TOS Review Test Corpus"
+descript = "A download automation tool for torrent trackers with powerful filtering rules."
+release_note = "1. Initial release."
+important = "Requires DockerEngine from the TOS App Center."
+
+[it-it]
+name = "Autobrr"
+auth = "TOS Review Test Corpus"
+descript = "A download automation tool for torrent trackers with powerful filtering rules."
+release_note = "1. Initial release."
+important = "Requires DockerEngine from the TOS App Center."
+
+[es-es]
+name = "Autobrr"
+auth = "TOS Review Test Corpus"
+descript = "A download automation tool for torrent trackers with powerful filtering rules."
+release_note = "1. Initial release."
+important = "Requires DockerEngine from the TOS App Center."
+
+[hu-hu]
+name = "Autobrr"
+auth = "TOS Review Test Corpus"
+descript = "A download automation tool for torrent trackers with powerful filtering rules."
+release_note = "1. Initial release."
+important = "Requires DockerEngine from the TOS App Center."
+
+[ja-jp]
+name = "Autobrr"
+auth = "TOS Review Test Corpus"
+descript = "A download automation tool for torrent trackers with powerful filtering rules."
+release_note = "1. Initial release."
+important = "Requires DockerEngine from the TOS App Center."
+
+[ko-kr]
+name = "Autobrr"
+auth = "TOS Review Test Corpus"
+descript = "A download automation tool for torrent trackers with powerful filtering rules."
+release_note = "1. Initial release."
+important = "Requires DockerEngine from the TOS App Center."
+
+[pl-pl]
+name = "Autobrr"
+auth = "TOS Review Test Corpus"
+descript = "A download automation tool for torrent trackers with powerful filtering rules."
+release_note = "1. Initial release."
+important = "Requires DockerEngine from the TOS App Center."
+
+[ru-ru]
+name = "Autobrr"
+auth = "TOS Review Test Corpus"
+descript = "A download automation tool for torrent trackers with powerful filtering rules."
+release_note = "1. Initial release."
+important = "Requires DockerEngine from the TOS App Center."
+
+[tr-tr]
+name = "Autobrr"
+auth = "TOS Review Test Corpus"
+descript = "A download automation tool for torrent trackers with powerful filtering rules."
+release_note = "1. Initial release."
+important = "Requires DockerEngine from the TOS App Center."
+
+[pt-pt]
+name = "Autobrr"
+auth = "TOS Review Test Corpus"
+descript = "A download automation tool for torrent trackers with powerful filtering rules."
+release_note = "1. Initial release."
+important = "Requires DockerEngine from the TOS App Center."

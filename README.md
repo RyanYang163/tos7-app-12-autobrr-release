@@ -1,28 +1,38 @@
-# tos7-app-12-autobrr — TOS 7 应用发布仓库
+# Autobrr
 
-本仓库用于存放 **Autobrr** 的 TOS 7 应用包(Release 资产)。
-TOS 开发者平台会**从本仓库的 Release 中自动拉取应用包**,不使用仓库根目录的文件。
+> ⚠️ **本仓库是 TOS 7 应用审核流程的测试语料,不是可用的应用。**
+> 它**故意违反**了《TOS 7 应用开发指引》第 16 章的多条审核条目,
+> 用于验证审核系统能否正确识别并拦截这些缺陷。
+> **请勿安装、请勿用于生产环境。**
 
-> ⚠️ **本应用是审核流程的测试语料,不是可用的应用。**
-> 它故意违反《TOS 7 应用开发指引》第 16 章的多条审核条目,
-> 用于验证审核系统能否正确识别并拦截。**请勿安装。**
+## 应用信息
 
-## 当前收录的应用
+| 项 | 值 |
+|---|---|
+| 应用 ID | `tos7-app-12-autobrr` |
+| 类型 | Docker 应用(Compose) |
+| 版本 | 1.0.0 |
+| 上游项目 | https://github.com/autobrr/autobrr |
+| 许可证 | GPL-2.0 |
+| 访问端口 | 18092 |
 
-| 应用 ID | 类型 | 包文件 | 说明 |
-|---|---|---|---|
-| `tos7-app-12-autobrr` | Docker 应用 | `tos7-app-12-autobrr.tar.gz` | A download automation tool for torrent trackers with powerful filtering rules. |
+## 故意违反的审核条目
 
-**故意违反的条目**:`H8, H14, I4`(详见源码仓库的 `VIOLATIONS.md`)
+本版本故意违反以下条目(编号见 `16_Review_Standards.md`):
 
-## 目录约定
+**`H8, H14, I4`**
 
-- 应用包**只放在 Release 资产里**,不要放在仓库根目录。
-- 每个 Release 的 **tag 与包内 `config.ini` 的 `version` 字段对应**。
-- 每个 Release **只放一个架构**的包(`x86_64`)。
-- 每个包配一个同名的 `.sha256` / `sha256sum.txt` 校验文件,平台会按它核对。
+具体落地方式见 [`VIOLATIONS.md`](./VIOLATIONS.md)。
 
-## 相关仓库
+## 打包
 
-- 源码仓库(私有):https://github.com/RyanYang163/tos7-app-12-autobrr
-- 上游项目:https://github.com/autobrr/autobrr
+```bash
+./build.sh
+```
+
+产物在 `build/output/`,同级生成与包同名的 `<包名>.sha256`。
+
+## 上游说明
+
+本仓库仅包含 TOS 7 应用封装所需的配置文件与打包脚本,
+应用本身的源码与二进制来自上游项目:https://github.com/autobrr/autobrr

@@ -1,0 +1,24 @@
+version: "3.8"
+
+services:
+  tos7-app-12-autobrr:
+    image: ghcr.io/autobrr/autobrr:v1.52.0
+    container_name: tos7-app-12-autobrr
+    restart: unless-stopped
+    ports:
+      - "18092:7474"
+    user: "1000:1000"
+    volumes:
+      - /Volume*/DockerAppData/tos7-app-12-autobrr/config:/config
+    environment:
+      - TZ=Asia/Shanghai
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:7474/api/healthz/live"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+x-app-meta:
+  web:
+    port: 18092
+    protocol: http
